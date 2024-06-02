@@ -6,5 +6,6 @@ def fib(n):
     else:
         return fib(n - 1) + fib(n - 2)
 
-x = fib(6)
-print(x)
+
+for i in range(1, 10):
+    print(i, ":", fib(i))
