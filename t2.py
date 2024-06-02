@@ -16,9 +16,12 @@ def fib_loop(n):
         n1, n2 = temp, n1 + n2
 
 
+print('Loop Version')
 fib_loop(10)
 
-
-
+print('Recursive Version')
 for i in range(1, 10):
     print(i, ":", fib(i))
+
+
+print()
