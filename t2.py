@@ -18,6 +18,8 @@ def fib_loop(n):
 
 fib_loop(10)
 
+print('New Line Added')
+
 
 for i in range(1, 10):
     print(i, ":", fib(i))
