@@ -7,5 +7,9 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 
+def fib_loop(n):
+    n1, n2 = 0, 1
+
+
 for i in range(1, 10):
     print(i, ":", fib(i))
